@@ -1,0 +1,285 @@
+/* color codes */
+/* background-color: #00fdc8; */
+/* background-color: #666666; */
+/* background-color: #eeeeee; */
+/* background-color: #7c7ce0; */
+/* background-color: #455a64; */
+/* background-color: #78909c; */
+/* background-color: #db4437; */
+/* background-color: #ea9999; */
+/* background-color: #f6cd4c; */
+/* color: white; */
+/* color: #666666; */
+/* color: #eeeeee; */
+/* color: #7c7ce0; */
+/* color: #455a64; */
+/* color: #78909c; */
+/* color: #db4437; */
+/* color: #ea9999; */
+/* color: #f6cd4c; */
+
+/* format body by removing default browser values */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Courier;
+    font-family:Courier New;
+}
+/* control overview section title (absolute relative to parent (overview section) */
+.body h2 {
+    border: 8px solid white;
+    padding: 10px 10px;
+    display: inline-block;
+    color: #7c7ce0;
+    background-color: #00fdc8;
+    border-bottom-style: groove;
+    border-radius: 20px;
+    border: 1px solid #db4437;
+} 
+
+/* control paragraph describing project */
+.body p {
+    text-align:justify;
+    padding: 10px 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #455a64;
+    overflow-wrap: break-word;
+    hyphens: auto; 
+} 
+
+/* format navbar section */
+/* set the properties for LEAR image in header */
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color:#e2756b;
+    border-bottom-style: groove;
+    border-radius: 4px;
+    padding: 20px; 
+    width: 100%;
+    z-index: 1;
+    font-family: "Arial";
+    border: 2px solid #00fdc8;
+    display: inline;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+header ul li {
+    display: inline;
+}
+header ul li a {
+    display: inline;
+    text-align: center;
+    padding: 26px 60px;
+    text-decoration: none;
+    float: right;
+    /* color: #666666; */
+    color: white;
+}
+header ul li h1 {
+    display: inline;
+    color: #00fdc8;
+    text-align: left;
+    padding: 1px 8px;
+    text-decoration: none;
+    float: left;
+    overflow-wrap: break-word;
+}
+/* Change the link color to #111 (black) on hover */
+header ul li a:hover {
+    background-color: #00fdc8;
+    color:#e2756b;
+}
+
+/* format overview section */
+.overview {
+    position: relative;
+    top: 120px;
+    padding: 100px; 
+    margin: 5px 0;
+    text-align: center;
+    background-color: white;
+}
+/* control overview section title (absolute relative to parent (overview section) */
+.overview h2 {
+    border: 8px solid white;
+    padding: 10px 10px;
+    display: inline-block;
+    color: #7c7ce0;
+    background-color: #00fdc8;
+    border-bottom-style: groove;
+    border-radius: 20px;
+    border: 1px solid #db4437;
+} 
+/* control paragraph describing project */
+.overview p {
+    text-align:justify;
+    padding: 10px 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #455a64;
+} 
+
+/* format demo section */
+.demos {
+    padding: 100px;
+    margin: 80px 0;
+    margin-bottom:0px;
+    text-align: center;
+    background-color: #00fdc8;
+}
+.demos videos {
+    display: inline-block;
+}
+/* control title */
+.demos h2 {
+    border: 8px solid white;
+    padding: 10px 10px;
+    display: inline-block;
+    color: #7c7ce0;
+    background-color: white;
+    border-bottom-style: groove;
+    border-radius: 20px;
+    border: 1px solid #db4437;
+} 
+.demos ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.demos ul li {
+    display: inline;
+}
+.demos ul li p {
+    display: inline;
+    text-align: center;
+    padding: 26px 60px;
+    text-decoration: none;
+    float: right;
+    color: #666666;
+}
+.demos vid1 {
+    width: 33%; 
+    float: left;
+}
+.demos vid2 {
+    width: 33%; 
+    float: right;
+}
+.demos wrap-text {
+    color: white;
+    overflow-wrap: break-word;
+    hyphens: auto;  
+}
+
+/* format team section */
+/* set the properties for team member images */
+.team {
+    padding: 100px;
+    margin: 80px 0;
+    margin-top:0px;
+    margin-bottom:0px;
+    /* width: 100%; */
+    text-align: center;
+    /* background-color: antiquewhite; */
+    background-color: white;
+}
+/* control overview section title (absolute relative to parent (overview section) */
+.team h2 {
+    border: 8px solid white;
+    padding: 10px 10px;
+    display: inline-block;
+    color: #7c7ce0;
+    background-color: #00fdc8;
+    border-bottom-style: groove;
+    border-radius: 20px;
+    border: 1px solid #db4437;
+} 
+/* control paragraph describing project */
+.team p {
+    text-align:justify;
+    padding: 10px 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #455a64;
+} 
+
+/* format docs section */
+.docs {
+    padding: 100px;
+    margin: 80px 0;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    background-color: #00fdc8;
+}
+/* control title */
+.docs h2 {
+    border: 8px solid white;
+    padding: 10px 10px;
+    margin: 50px;
+    display: inline-block;
+    color: #7c7ce0;
+    background-color: white;
+    border-bottom-style: groove;
+    border-radius: 20px;
+    border: 1px solid #db4437;
+} 
+.docs ul {
+    font-size: 1em;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    padding: 0;
+}
+.docs ul li {
+    background-color: #00fdc8;
+    margin: 0 0px 0 0;
+    padding: 7px 10px;
+    display: block;
+    display: table-cell;
+    width: 40%;
+    text-align: left;
+}
+.docs ul li a {
+    display: inline;
+    padding: 26px 60px;
+    text-decoration: none;
+    float:left;
+    color: white;
+    background-color:#ea9999;
+    border-bottom-style: groove;
+    border-radius: 20px;
+    border: 1px solid #455a64;
+    overflow-wrap: break-word;
+}
+.docs ul li h1 {
+    display: inline;
+    color:#455a64;
+    text-align: left;
+    padding: 1px 8px;
+    text-decoration: none;
+    float: left;
+}
+/* Change the link color to #111 (black) on hover */
+.docs ul li a:hover {
+    background-color:#455a64;
+    color:#7c7ce0;
+}
+
+/* format footer section */
+.footer {
+    padding: 10px;
+    margin: 80px 0;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    background-color: #666666;
+}
